@@ -176,7 +176,7 @@ export class ProfileService {
   Extensive experience in Visual studio code IDE .
   Sound knowledge of Google Cloud Deployment.`
 
-  resumeurl = "https://drive.google.com/file/d/1cBjUF0QfLsDnqpoljHtQiOUicPT3IOEE/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/1HhdL0XDBEUJgQavX-sZlrccwvWX02Ck0/view?usp=sharing"
 
   skillsData: any = [
     {
