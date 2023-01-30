@@ -164,19 +164,21 @@ export class ProfileService {
 
   ]
 
-  about = `Software Developer with 4.2+ years of experience .
-  Worked with Software Development Life Cycle(SDLC) and agile methodologies .
-  Expertise in Angular 2+ All versions, Typescript, Javascript, Node JS, Express, Mongo DB and UI with Responsive Designs .
-  Have good understanding of HTML, CSS, Bootstrap and Jquery .
-  Proficient in building Single Page Application for Web, and Mobile using Angular to support a multitude of browsers and devices .
-  Working knowledge of developing Progressive Web App .
-  Good Understanding and good Experience with Model View Control (MVC) design pattern .
+  about = `
+  Senior Software Developer with 5+ years of experience as Frontend Developer .
+  Worked with Software Development Life Cycle(SDLC) with Agile and Waterfall methodologies .
+  Expertise in Angular 2+ All versions, TypeScript, JavaScript and UI with Responsive Designs .
+  Have good understanding of HTML, CSS, SCSS, Bootstrap and Jquery .
+  Sound knowledge with MongoDB, ExpressJS, NodeJS and Angular(MEAN Stack) technologies .
+  Proficient in building Single Page Application(SPA) for Web, Mobile and Desktop to support a multitude of browsers and devices .
+  Working knowledge of developing Progressive Web App(PWA) .
+  Good Understanding with Model View Control (MVC) design pattern .
   Extensive knowledge of Angular, Angular CLI and its new version’s features .
-  Good experience with Git and Jira .
+  Good experience with Git, GitHub, GitLab, Bitbucket and Jira .
   Extensive experience in Visual studio code IDE .
-  Sound knowledge of Google Cloud Deployment.`
+  Good knowledge of Regression and Cross Browser testing on various types of devices`
 
-  resumeurl = "https://drive.google.com/file/d/1HhdL0XDBEUJgQavX-sZlrccwvWX02Ck0/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/17_Fv7g-MPXMDk85wO2X8qfeS4gSSfhSq/view"
 
   skillsData: any = [
     {
@@ -186,48 +188,53 @@ export class ProfileService {
     },
     {
       'id': '2',
-      'skill': 'NODE JS',
-      'progress': '70%'
-    },
-    {
-      'id': '3',
-      'skill': 'EXPRESS',
-      'progress': '75%'
-    },
-    {
-      'id': '4',
-      'skill': 'MONOGO DB',
-      'progress': '65%'
-    },
-    {
-      'id': '5',
-      'skill': 'JAVASCRIPT',
-      'progress': '80%'
-    },
-    {
-      'id': '6',
       'skill': 'TYPESCRIPT',
       'progress': '80%'
     },
     {
-      'id': '7',
+      'id': '2',
+      'skill': 'JAVASCRIPT',
+      'progress': '80%'
+    },
+    {
+      'id': '3',
       'skill': 'JQUERY',
       'progress': '70%'
     },
     {
-      'id': '8',
-      'skill': 'HTML + CSS',
-      'progress': '80%'
+      'id': '4',
+      'skill': 'HTML',
+      'progress': '70%'
     },
     {
-      'id': '9',
+      'id': '5',
+      'skill': ' CSS',
+      'progress': '650%'
+    },
+    {
+      'id': '6',
       'skill': 'BOOTSTRAP',
       'progress': '80%'
     },
     {
+      'id': '7',
+      'skill': 'NODE JS',
+      'progress': '65%'
+    },
+    {
+      'id': '8',
+      'skill': 'EXPRESS',
+      'progress': '75%'
+    },
+    {
+      'id': '9',
+      'skill': 'MONOGO DB',
+      'progress': '65%'
+    },
+    {
       'id': '10',
       'skill': 'PWA',
-      'progress': '65%'
+      'progress': '75%'
     },
     {
       'id': '11',
