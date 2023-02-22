@@ -32,7 +32,7 @@ export class ProfileService {
       githurl: '',
       mediumlink: '',
       imgUrl: 'assets/images/osteen.png',
-      tech: 'Angualr, Node, Express, MongoDB'
+      tech: 'Angular, Node, Express, MongoDB'
     },
     {
       id: 3,
@@ -62,7 +62,7 @@ export class ProfileService {
       githurl: '',
       mediumlink: '',
       imgUrl: 'assets/images/smione.png',
-      tech: 'Angualr 8'
+      tech: 'Angular 8'
     },
     {
       id: 6,
@@ -72,7 +72,7 @@ export class ProfileService {
       githurl: '',
       mediumlink: '',
       imgUrl: 'assets/images/voila.jpeg',
-      tech: 'Angualr 8'
+      tech: 'Angular 8'
     },
     {
       id: 7,
@@ -178,7 +178,7 @@ export class ProfileService {
   Extensive experience in Visual studio code IDE .
   Good knowledge of Regression and Cross Browser testing on various types of devices`
 
-  resumeurl = "https://drive.google.com/file/d/17_Fv7g-MPXMDk85wO2X8qfeS4gSSfhSq/view"
+  resumeurl = "https://drive.google.com/file/d/1v7ibg7FlIrjEw-tBRF2Az9F62iy3V4Yy/view?usp=sharing"
 
   skillsData: any = [
     {
