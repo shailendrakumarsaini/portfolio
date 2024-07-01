@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ProfileService } from '../profile.service';
+import { OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -7,12 +8,12 @@ import { ProfileService } from '../profile.service';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-about
-
-constructor(private profileService:ProfileService) { }
-
-  ngOnInit() {
-    this.about =  this.profileService.about;
-  }
-
+  about: string;
+  
+  constructor(private profileService:ProfileService) { }
+  
+    ngOnInit() {
+      this.about =  this.profileService.about;
+    }
+  
 }

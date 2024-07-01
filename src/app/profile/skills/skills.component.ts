@@ -8,7 +8,7 @@ import { ProfileService } from '../profile.service';
 })
 export class SkillsComponent implements OnInit {
 
-  skills
+  skills;
 
   constructor(private profileService:ProfileService) { }
   

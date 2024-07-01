@@ -1,32 +1,29 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
-import { RouterModule, Routes, ExtraOptions } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileModule } from './profile/profile.module';
-import { HttpClientModule } from '@angular/common/http';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RouterModule, Routes } from '@angular/router';
+
 const routes: Routes = [
   {
     path: '',
     component: ProfileComponent
   }
 ];
-
-
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes, {
-    initialNavigation: 'enabled'
-}),
+    HttpClientModule,
+    RouterModule.forRoot(routes, { initialNavigation:'enabledNonBlocking' }),
     ProfileModule,
-    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

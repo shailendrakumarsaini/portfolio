@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ProfileService } from '../profile.service';
 
 @Component({
@@ -6,7 +6,7 @@ import { ProfileService } from '../profile.service';
   templateUrl: './intro.component.html',
   styleUrls: ['./intro.component.scss']
 })
-export class IntroComponent implements OnInit {
+export class IntroComponent {
   cvUrl
   constructor(private profileService:ProfileService) { }
 

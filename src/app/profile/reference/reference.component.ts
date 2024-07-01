@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-reference',
   templateUrl: './reference.component.html',
   styleUrls: ['./reference.component.scss']
 })
-export class ReferenceComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class ReferenceComponent {
 
 }
