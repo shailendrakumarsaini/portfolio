@@ -103,11 +103,11 @@ export class ProfileService {
   ]
 
   about = `
-  Senior Software Developer with 6.4 years of experience as Frontend Developer .
+  Senior Software Developer with 7.5 years of experience as Frontend Developer .
   Worked with Software Development Life Cycle(SDLC) with Agile and Waterfall methodologies .
   Expertise in Angular 2+ All versions, TypeScript, JavaScript and UI with Responsive Designs .
   Have good understanding of HTML, CSS, SCSS, Bootstrap and Jquery .
-  Familiar with React JS .
+  Experience in React JS .
   Sound knowledge with MongoDB, ExpressJS, NodeJS and Angular(MEAN Stack) technologies .
   Proficient in building Single Page Application(SPA) for Web, Mobile and Desktop to support a multitude of browsers and devices .
   Working knowledge of developing Progressive Web App(PWA) .
