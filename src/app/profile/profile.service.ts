@@ -122,66 +122,71 @@ export class ProfileService {
   skillsData: any = [
     {
       'id': '1',
-      'skill': 'ANGULAR 5+',
+      'skill': 'ANGULAR',
       'progress': '85%'
     },
     {
       'id': '2',
+      'skill': 'ReactJS',
+      'progress': '70%'
+    },
+    {
+      'id': '3',
       'skill': 'TYPESCRIPT',
       'progress': '80%'
     },
     {
-      'id': '2',
+      'id': '4',
       'skill': 'JAVASCRIPT',
       'progress': '80%'
     },
     {
-      'id': '3',
+      'id': '5',
       'skill': 'JQUERY',
       'progress': '70%'
     },
     {
-      'id': '4',
+      'id': '6',
       'skill': 'HTML',
       'progress': '70%'
     },
     {
-      'id': '5',
+      'id': '7',
       'skill': ' CSS',
-      'progress': '65%'
+      'progress': '70%'
     },
     {
-      'id': '6',
+      'id': '8',
       'skill': 'BOOTSTRAP',
       'progress': '80%'
     },
     {
-      'id': '7',
-      'skill': 'NODE JS',
-      'progress': '60%'
-    },
-    {
-      'id': '8',
-      'skill': 'EXPRESS',
-      'progress': '60%'
-    },
-    {
       'id': '9',
-      'skill': 'MONOGO DB',
+      'skill': 'NODE JS',
       'progress': '50%'
     },
     {
       'id': '10',
+      'skill': 'EXPRESS',
+      'progress': '50%'
+    },
+    {
+      'id': '11',
+      'skill': 'MONOGO DB',
+      'progress': '50%'
+    },
+    {
+      'id': '12',
       'skill': 'PWA',
       'progress': '75%'
     },
     {
-      'id': '11',
+      'id': '13',
       'skill': 'GIT + JIRA',
       'progress': '75%'
     },
     {
-      'id': '12',
+      'id': '14',
       'skill': 'GitHub, Bitbucket, GitLab',
       'progress': '75%'
     },
