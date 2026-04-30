@@ -117,7 +117,7 @@ export class ProfileService {
   Extensive experience in Visual studio code IDE .
   Good knowledge of Regression and Cross Browser testing on various types of devices`
 
-  resumeurl = "https://drive.google.com/file/d/1Nt6P7lSGe6we9vGs_kL5jx7gXiF78WWi/view?usp=sharing"
+  resumeurl = "https://drive.google.com/file/d/11WyesbELIhGx13Q7B2tJwJca2rrOzXZ5/view?usp=sharing"
 
   skillsData: any = [
     {
